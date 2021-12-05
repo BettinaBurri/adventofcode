@@ -1,0 +1,14 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "run day 1",
+			"type": "python",
+			"request": "launch",
+			"program": "${workspaceFolder}/2021/day_01.py",
+			"args": [],
+			"django": false,
+			"justMyCode": false
+		}
+	]
+}

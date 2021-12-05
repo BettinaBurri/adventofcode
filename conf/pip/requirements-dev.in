@@ -1,0 +1,19 @@
+# inherit from python requirements
+# compile: /apps/venv/bin/pip-compile --output-file=requirements-dev.txt requirements-dev.in
+#
+-r requirements.in
+-r requirements-scx.in
+#
+# add python DEV requirements here
+pip-tools
+pipdeptree
+
+# pylint 2.6.0 as problems with src/django folder (thinks django is a local module): wrong-import-order
+pylint==2.5.3
+pylint_django
+pycodestyle
+coverage
+
+ipykernel # used to run Jupyter Notebook IPYNB-Files
+
+django-fixture-magic
