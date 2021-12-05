@@ -62,4 +62,4 @@
 	"python.pythonPath": "/apps/adventofcode_venv/bin/python",
 	"triggerTaskOnSave.restart": true,
 	"python.languageServer": "Pylance"
-}ö
+}
